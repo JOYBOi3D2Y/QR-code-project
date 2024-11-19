@@ -12,8 +12,7 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 300px;
-  margin: auto;
+  max-width: 300px;
   border-radius: 15px;
   background-color: hsl(0, 0%, 100%);
   text-align: center;
@@ -42,6 +41,11 @@ p{
 
 body{
   background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .attribution{
   text-align: center;
@@ -51,14 +55,14 @@ h2{
   font-size: 21px;
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: bold;
   font-style: normal;
 }
 </style>
 </head>
 <body>
   <div class="card">
-    <img src="images/image-qr-code.png" alt="qr-code" >
+    <img src="images/image-qr-code.png" alt="QR code to Frontendmentor.io" >
     <div class="container">
       <h2><b>Improve your front-end skills by building projects</b></h2>    
       <P>Scan the QR code to visit Frondend Mentor and take your coding skills to the next level</P>
